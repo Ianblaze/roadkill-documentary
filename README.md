@@ -26,13 +26,7 @@ https://drive.google.com/drive/folders/1PrzGqLisLnP_9mj5aB5QFuxeJP5YPO1H?usp=dri
 - **Authors:** Grilo et al., 2024/2025
 - **Source:** Figshare (DOI: 10.6084/m9.figshare.25714233) and GBIF (Systematic + Opportunistic records)
 - **Scope:** 177,428 cleaned records · 54 countries · 42 years (1983–2024) · 2,283 species
-- **Format:** Single flat CSV, Darwin Core-style fields (species, coordinates, date, country, IUCN status, road context)
-
-### Supplementary: Western Ghats, India (local case study)
-- **Authors:** Jeganathan, Mudappa, Kumar & Raman, 2018 — *Current Science* 114(3): 619–626
-- **Source:** Zenodo / GBIF
-- **Scope:** Valparai Plateau & Anamalai Tiger Reserve, Tamil Nadu · 2011–2013 · 2,969 roadkill records across 229 surveys (1,473 km surveyed effort)
-- **Why it's included:** the global dataset's top species (European Roe Deer) doesn't represent India — this dataset's roadkill is dominated by frogs, toads, snails, and millipedes, giving a genuinely local, effort-adjusted case study (habitat type and monsoon vs. summer season effects) rather than forcing the global "deer" narrative onto a region it doesn't fit.
+- **Format:** Single flat CSV, Darwin Core-style fields (species, coordinates, date, country, IUCN status, road context
 
 ---
 
@@ -57,17 +51,13 @@ roadkill-documentary/
 ├── data/
 │   ├── raw/
 │   │   ├── global_roadkill.csv              # Grilo et al. dataset (linked, not committed — see below)
-│   │   └── india_roadkill/                  # Jeganathan et al. dataset (4 CSVs + KML + map)
+│   │  
 │   └── processed/
 │       └── global_roadkill_clean.csv        # cleaned output of the notebook
 ├── notebooks/
 │   └── roadkill_final_colab.ipynb           # full cleaning + 9-insight analysis (outputs cleared before commit)
 ├── assets/
 │   └── charts/                              # exported PNGs for every insight, used in the video
-├── docs/
-│   ├── script.md                            # narration script
-│   └── insights.md                          # written summary of all 9 insights with numbers
-├── roadkill_documentary_insights.pptx       # supporting slide deck (reference alongside video)
 └── README.md
 ```
 
