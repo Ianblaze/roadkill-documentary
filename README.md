@@ -64,8 +64,6 @@ roadkill-documentary/
 └── README.md
 ```
 
-**Note on the raw data file:** the global dataset is ~90MB, over GitHub's comfortable size limit. It is **not committed directly** — instead, `data/raw/README.md` links to the Figshare DOI and GBIF pages so anyone can re-download the original source. Only the cleaned, smaller `global_roadkill_clean.csv` (~35MB) is committed.
-
 ---
 
 ## Data Cleaning
@@ -100,21 +98,8 @@ The documentary follows a deliberate arc: **Scale → Victims → Time → World
 | 8 | Which threatened species are recorded most? | **Common Fire Salamander** (1,565, VU), followed by Giant Anteater (1,237, VU) |
 | 9 | Where are threatened-species hotspots? | Same geographic lens as Insight 5, filtered to VU+EN+CR only |
 
-*(Full numbers and chart-by-chart breakdown in `docs/insights.md`.)*
-
-### Local case study — Western Ghats, India
-- Dominated by amphibians and invertebrates (frogs, toads, snails, millipedes) — mammals are only 5.5% of individuals, a sharp contrast to the global dataset
-- **Season effect:** 26.4 kills per 10km surveyed in monsoon vs. 11.8 in summer, even after adjusting for survey effort — more than double
-- **Habitat effect:** raw kills highest on tea-plantation-bordered and forest roads
 
 ---
-
-## Documentary Production
-
-- **Cold open:** European Roe Deer footage with AI-narrated, documentary-style voiceover (cut to black before impact — implied, not shown)
-- **Insight segments:** talking-head explainer clips (picture-in-picture over themed background footage) for Insights 1–3, presented by group members, satisfying the "every member participates" requirement
-- **Chart integration:** every Plotly chart exported at 1600×900 (16:9) via Kaleido, given a slow Ken Burns zoom in editing rather than shown as a static hold
-- **Narration script:** full text in `docs/script.md`, written for TTS/AI voice — numbers spelled out as words, pauses marked with ellipses, no bracketed stage directions in the spoken text itself
 
 ---
 
@@ -134,7 +119,7 @@ These constraints were followed throughout the analysis and narration to keep ev
 
 ```bash
 # clone the repo
-git clone <repo-url>
+git clone https://github.com/Ianblaze/roadkill-documentary.git
 cd roadkill-documentary
 
 
