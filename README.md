@@ -5,9 +5,9 @@ A short documentary combining cinematic storytelling with real wildlife-roadkill
 Please find the video attached and the original dataset attached within this google drive. Could not upload it individually on classroom due to its huge size.
 https://drive.google.com/drive/folders/1PrzGqLisLnP_9mj5aB5QFuxeJP5YPO1H?usp=drive_link
 
-Ian Almeida 2609020 20
-Kripa Joshi 2609015 15
-Usama Shaikh 2609041 41
+- Ian Almeida 2609020 20
+- Kripa Joshi 2609015 15
+- Usama Shaikh 2609041 41
 ---
 
 ## Table of Contents
